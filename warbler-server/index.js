@@ -8,6 +8,7 @@ const errorHandler = require('./handlers/error');
 const authRoutes = require('./routes/auth');
 const messagesRoutes = require('./routes/messages');
 const {loginRequired, ensureCorrectUser} = require('./middleware/auth');
+const db = require('./models');
 
 const app = express();
 const PORT = 8081;
@@ -33,7 +34,7 @@ app.get('/api/messages', loginRequired, async function(req, res, next) {
       });
       return res.status(200).json(messages);
   } catch (error) {
-    return next(err);
+    return next(error);
   }
 })
 
