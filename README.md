@@ -9,7 +9,7 @@ link: https://warbler-client-tb.herokuapp.com/
 
 it's a twitter clone with two part:
 
-I. wabler server (RESTful API):
+I. Warbler server (RESTful API):
 
 1. authentication (jwt)
 
@@ -21,7 +21,7 @@ I. wabler server (RESTful API):
 
 5. error handling
 
-II. wabler client (react/redux):
+II. Warbler client (react/redux):
 
 1. homepage render all the users and messages
 
