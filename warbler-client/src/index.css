@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+  box-sizing: content-box;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -23,7 +29,7 @@ code {
 }
 
 .navbar a {
-  color: white;
+  color: white !important;
 }
 
 .navbar a:hover {
@@ -81,14 +87,10 @@ ul.nav.navbar-nav li {
   margin-bottom: 1em;
 }
 
-#messages .list-group-item {
+.list-group-item {
   display: flex;
   align-items: flex-start;
   padding: 7px 20px 12px;
-}
-
-#messages:not(.no-hover) .list-group-item:hover {
-  background-color: #e6ecf0;
 }
 
 .timeline-image {
