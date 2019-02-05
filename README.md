@@ -23,9 +23,9 @@ I. Warbler server (RESTful API):
 
 II. Warbler client (react/redux):
 
-1. homepage render all the users and messages
+1. signup, signin
 
-2. signup, signin pages
+2. homepage render all the users and messages
 
 3. create message
 
