@@ -9,7 +9,7 @@ link: https://warbler-client-tb.herokuapp.com/
 
 it's a twitter clone with two part:
 
-I. Warbler server (RESTful API):
+I. Warbler server (RESTful API, hosted on heroku):
 
 1. authentication (jwt)
 
