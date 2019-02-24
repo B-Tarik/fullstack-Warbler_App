@@ -11,7 +11,7 @@ it's a twitter clone with two part:
 
 I. Warbler server (RESTful API, hosted on heroku):
 
-1. authentication (jwt)
+1. authentication/authorization (jwt)
 
 2. database (mongoDb)
 
